@@ -106,6 +106,9 @@ input{
     border: none;
     outline: none;
 }
+#botonProyect{
+    margin: 7px;
+}
 
     /*  lAYOUT */
 .container{
@@ -696,7 +699,7 @@ input{
 }
 /*===== Services Section =====*/
 .services__container{
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(2, 250px);
     justify-content: center;
     column-gap: 1.8rem;
 }
@@ -705,6 +708,8 @@ input{
     background-color: var(--box-color);
     padding: 6rem 0 2rem 2.5rem;
     border-radius: .25rem;
+    
+
 }
 .services__icon{
     display: block;
@@ -801,7 +806,7 @@ input{
 /*===== Testimonial Section =====*/
 @media screen and (min-width: 992px){
     .testimonials__container{
-        width: 750px;
+        max-width: 750px;
         margin-right: auto !important;
         margin-right: auto !important;
     }    
@@ -1169,7 +1174,7 @@ textarea.input{
         margin-bottom: var(--mb-0-25);
     }
     .services__container{
-        grid-template-columns: repeat(3, 220px);
+        grid-template-columns: repeat(2, 220px);
     }
     .testimonial__card{
         padding: 1.25rem 1.5rem;
@@ -1249,7 +1254,6 @@ textarea.input{
         top: .5rem;
     }
 }
-
 @media screen and (max-width: 576px) { /* CORREGIR */
     .nav__toggle{
         right: initial;

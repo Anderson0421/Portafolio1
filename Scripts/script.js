@@ -58,6 +58,7 @@ document.addEventListener("click", (e) => {
 })
 function togglePortfolioPopup() {
 	document.querySelector(".portfolio__popup").classList.toggle("open");
+	
 }
 document.querySelector(".portfolio__popup-close").addEventListener("click", togglePortfolioPopup)
 
@@ -159,6 +160,7 @@ const navMenu = document.getElementById("sidebar"),
 if(navToggle){
 	navToggle.addEventListener("click", () =>{
 		navMenu.classList.add("show-sidebar")
+		
 	})
 }
 if(navClose){
@@ -166,6 +168,15 @@ if(navClose){
 		navMenu.classList.remove("show-sidebar")
 	})
 }
+// cODIGO PARA CERRAR EL MENU AUTOMATICAMENTE
+const navLinks = navMenu.querySelectorAll("a");
+
+navLinks.forEach(link => {
+	link.addEventListener("click", () => {
+    navMenu.classList.remove("show-sidebar");
+    });
+});
+
 /*=============== CAMBIO DE PESTANA ===============*/
 let previousTitle = document.title
 window.addEventListener("blur", ()  => {
