@@ -9,7 +9,7 @@
 
     /* HSL COLOR MODE */
 
-    --skin-color:rgb(206, 38, 52);
+    --skin-color:rgb(214, 42, 56);
     --title-color:hsl(var(--hue-color),8%,95%);
     --text-color:hsl(var(--hue-color),8%,85%);
     --body-color:hsl(var(--hue-color),19%,5%);
@@ -331,7 +331,7 @@ input{
     float: right;
     max-width: 30%;
     right: 100px;
-    top: -50px;
+    top: -100px;
 }
 .home__title{
     font-size: var(--biggest-font-size);
@@ -1193,8 +1193,8 @@ textarea.input{
 /* For Medium Devices */
 @media screen and (max-width: 768px) {
 
-    .img-config{
-        opacity: 0;
+    .about__img{
+        width: 250px;
     }
     .qualification__container{
         grid-template-columns: 290px;
@@ -1258,13 +1258,6 @@ textarea.input{
     .nav__toggle{
         right: initial;
         left: 1.5rem;
-    }
-    .img-config{
-        position: relative;
-        right: 45px;
-        top: -30px;
-        width: 500px;
-        opacity: 1;
     }
     .home{
         background-image: none;
