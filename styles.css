@@ -109,6 +109,21 @@ input{
 #botonProyect{
     margin: 7px;
 }
+#botonproyect2{
+    margin: 7px !important;
+}
+#Certfi10{
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--skin-color);
+    color: var(--title-color);
+    padding: .35rem 1rem;
+    border-radius: .25rem;
+    font-weight: var(--small-font-size);
+    position: relative;
+    z-index: 1;
+    top: 5px;
+}
 
     /*  lAYOUT */
 .container{
