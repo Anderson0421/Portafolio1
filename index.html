@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!--Swiper ccs-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--main css-->
     <link rel="stylesheet" href="styles.css">
     <title>Portafolio Web</title>
@@ -73,21 +74,21 @@
                     </div>
             </div>
     <!--TEXTO DE PRESENTACIOn-->
-            <div class="home__data">
-                <img src="Img/definitiva.png" alt="" class="home__img">
-                <h1 class="home__title">Hola, Soy Anderson</h1>
-                <span id="home__subtitle" class="typed  "></span> 
-                <p class="home__description">Estudiante de la carrera Ing de software ,Nivel intermedio  en desarrollo web , Python , Java y JavaScript </p>
-                <a href="#about" class="button" id="botonProyect">
+            <div class="home__data ">
+                <img src="Img/definitiva.png" alt="" class="home__img animate__animated animate__fadeInDown uno">
+                <h1 class="home__title animate__animated animate__fadeInDown dos">Hola, Soy Anderson</h1>
+                <span id="home__subtitle" class="typed animate__animated animate__fadeInDown tres"></span> 
+                <p class="home__description animate__animated animate__fadeInDown cuatro" >Estudiante de la carrera Ing de software ,Backend Developer | desarrollo web | Python | Java | MySql Sql | Php Js | C# C</p>
+                <a href="#about" class="button animate__animated animate__fadeInDown cinco" id="botonProyect" animate__fadeInDown>
                     <i class="uil uil-user button__icon" ></i>
                     Mas sobre mi
                 </a>
-                <a href="#work" class="button" id="botonProyect">
+                <a href="#work" class="button animate__animated animate__fadeInDown seis" id="botonProyect">
                     <i class='bx bxs-folder-minus'></i>
                     Mis proyectos
                 </a>
             </div>
-            <div class="my__info">
+            <div class="my__info animate__animated animate__fadeInDown siete">
                 <div class="info__item">
                     <a href="https://wa.me/+51941166905" target="_blank"><i class="uil uil-whatsapp info__icon"></i></a>
 
@@ -113,19 +114,19 @@
             <img src="Img/definitiva.png" alt="" class="about__img">
             <div class="about__data">
                 <h3 class="about__heading">Hola, Soy Anderson Marcelo, Ubicado en Peru</h3>
-                <p class="about__description">Tengo una pasión por crear sitios y aplicaciones atractivos y de alta calidad. Con mas 1 año de experiencia en el desarrollo web, 
-                    Tengo una sólida comprensión de las últimas tecnologías y tendencias en el desarrollo web, incluyendo html, css, JavaScript, Adema del desarrollo Web tengo experiencia
-                    En Python , Java , JavaScript y TypeScript y siempre estos dispuesto a aprender mas lenguajes de programacion ,tengo una fuerte capacidad de comunicación y trabajo en equipo</p>
+                <p class="about__description">Soy un desarrollador de software con experiencia en Python, Java y C#. Mi enfoque principal es el desarrollo backend utilizando SQL, MySQL y bases de datos. También tengo conocimientos en frontend, incluyendo HTML, CSS, JavaScript y React. Soy apasionado por crear soluciones eficientes y escalables, y me encanta trabajar en proyectos que mejoren la experiencia de usuario.
+                    Estoy actualizado con los framworks como Nodejs y Django
+                </p>
             <div class="about__info grid">  
                 <div class="about__box">
                     <i class="uil uil-award about__icon"></i>
                     <h3 class="about__title">Experience</h3>
-                    <span class="about__subtitle">+1 Año</span>
+                    <span class="about__subtitle">+2 Años</span>
                 </div>
                 <div class="about__box">
                     <i class="uil uil-suitcase-alt about__icon"></i>
                     <h3 class="about__title">Completed</h3>
-                    <span class="about__subtitle">5 + Proyectos</span>
+                    <span class="about__subtitle">6 + Proyectos</span>
                 </div>
                 <div class="about__box">
                     <i class="uil uil-headphones-alt about__icon"></i>
@@ -224,6 +225,16 @@
                         <p class="timeline__text">Interfaz en tkinter con Python</p>
                         <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
                         05/2023 
+                        </span>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="circle__dot"></div>
+                        <h3 class="timeline__title">Dashboard Admin</h3>
+                        <p class="timeline__text">Dashboard administrativo DataBase 
+                            Php Html Css JS
+                        </p>
+                        <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                        06/2023 
                         </span>
                     </div>
                 </div>
@@ -355,7 +366,17 @@
                         <div class="skills__data">
                             <div class="skills__titlee">
                                 <h3 class="skills__name">MySql <i class='bx bx-data back__icons4' ></i></h3>
-                                <span class="skills__number">70%</span>
+                                <span class="skills__number">80%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 70%"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titlee">
+                                <h3 class="skills__name">C#<i class='bx bxl-c-plus-plus'></i></h3>
+                                <span class="skills__number">50%</span>
                             </div>
 
                             <div class="skills__bar">
@@ -534,55 +555,51 @@
 
         <div class="services__container container grid">
             <div class="services__content">
-                <div>
-                    <i class="uil uil-web-grid services__icon"></i>
-                    <h3 class="services__title">Desarrollo <br> de Software</h3>
-                </div>
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">Desarrollo <br> de software</h3>
+                    </div>
 
-                <span class="services__button">
-                    Mira Mas! <i class="uil uil-arrow-right services__button-icon"></i>
-                </span>
-            <div class="services__modal">
-                <div class="services__modal-content">
-                    <i class="uil uil-times services__modal-close"></i>
+                    <span class="services__button">
+                        Mira Mas! <i class="uil uil-arrow-right services__button-icon"></i>
+                    </span>
+                <div class="services__modal">
+                    <div class="services__modal-content">
+                        <i class="uil uil-times services__modal-close"></i>
 
-                    <h3 class="services__modal-title">Desarrollador de Software</h3>
-                    <p class="services__modal-description">Con experiencia en los lenguajes de programación Java, Python y JavaScript. He trabajado en varios proyectos, desde el desarrollo de aplicaciones web hasta la automatización de procesos empresariales y la creación de sistemas de análisis de datos. Con mis habilidades técnicas y creativas,
-                    me enfoco en crear soluciones eficientes y de alta calidad para satisfacer las necesidades de mis clientes.
-                    </p>
-                    <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p class="services__modal-info">Intefaz Grafica de usuario de escritorio</p>
-                        </li>
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p class="services__modal-info">Desarrollo de paginas web</p>
-                        </li>
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p class="services__modal-info">Desarollo de software</p>
-                        </li>
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p class="services__modal-info">Posiciono la marca de tu empresa</p>
-                        </li>
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p class="services__modal-info">Automatización de procesos </p>
-                        </li>
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p class="services__modal-info">Creación de sistemas de análisis de datos.</p>
-                        </li>
-                    </ul>
+                        <h3 class="services__modal-title">Desarrollador de Software</h3>
+                        <p class="services__modal-description">Como desarrollador de software en Python, Java y C#. Mi enfoque principal es el desarrollo backend utilizando SQL, MySQL y bases de datos. También tengo conocimientos en frontend, incluyendo HTML, CSS, JavaScript y React. Soy apasionado por crear soluciones eficientes y escalables, y me encanta trabajar en proyectos que mejoren la experiencia de usuario.
+                        </p>
+                        <ul class="services__modal-services grid">
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p class="services__modal-info">Desarrollo de sistemas backend</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p class="services__modal-info">Desarrollo de aplicaciones web</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p class="services__modal-info">Optimización de bases de datos</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p class="services__modal-info">Automatización de tareas</p>
+                            </li>
+                            <li class="services__modal-service">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                                <p class="services__modal-info">Colaboración en proyectos de equipo</p>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
             <div class="services__content">
                 <div>
                     <i class="uil uil-arrow services__icon"></i>
-                    <h3 class="services__title">Desarrollador <br> Web</h3>
+                    <h3 class="services__title">Desarrollador <br> Web (Backend)</h3>
                 </div>
 
                 <span class="services__button">
@@ -591,9 +608,10 @@
                 <div class="services__modal">
                     <div class="services__modal-content">
                         <i class="uil uil-times services__modal-close"></i>
-    
-                        <h3 class="services__modal-title">Frontend Developer</h3>
-                        <p class="services__modal-description">Soy un desarrollador/a web con experiencia en HTML, CSS, JavaScript y diseño responsive. He creado varios sitios web personalizados y adaptables a diferentes dispositivos, lo que me ha permitido mejorar mis habilidades en el diseño y desarrollo web. Si necesitas un sitio web atractivo y funcional, no dudes en contactarme.
+
+                        <h3 class="services__modal-title">Backend Developer</h3>
+                        <p class="services__modal-description">Soy un desarrollador backend utilizando SQL, MySQL, Php y bases de datos
+                            Cuento con experencia en distintos proyectos trabajados con Base de Datos Ademas de contar con conomiento de Html Css Js
                         </p>
                         <ul class="services__modal-services grid">
                             <li class="services__modal-service">
@@ -606,15 +624,15 @@
                             </li>
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p class="services__modal-info">Habilidad para resolver problemas</p>
+                                <p class="services__modal-info">Desarrollo de sistemas backend</p>
                             </li>
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p class="services__modal-info">Posiciono la marca de tu empresa</p>
+                                <p class="services__modal-info">Optimización de bases de datos</p>
                             </li>
                             <li class="services__modal-service">
                                 <i class="uil uil-check-circle services__modal-icon"></i>
-                                <p class="services__modal-info">Diseño y maquetas de productos para empresas.</p>
+                                <p class="services__modal-info">Desarrollo de aplicaciones web</p>
                             </li>
                         </ul>
                     </div>

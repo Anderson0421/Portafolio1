@@ -1375,3 +1375,25 @@ textarea.input{
         padding-right: 3.5rem;
     }
 }
+
+.animate__fadeInDown.uno{
+    animation-delay: 0.5s;
+}
+.animate__fadeInDown.dos{
+    animation-delay: 1s;
+}
+.animate__fadeInDown.tres{
+    animation-delay:1.5s;
+}
+.animate__fadeInDown.cuatro{
+    animation-delay: 3s;
+}
+.animate__fadeInDown.cinco{
+    animation-delay: 3s;
+}
+.animate__fadeInDown.seis{
+    animation-delay: 3.5s;
+}
+.animate__fadeInDown.siete{
+    animation-delay: 3.5s;
+}

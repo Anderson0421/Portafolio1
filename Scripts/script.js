@@ -193,8 +193,9 @@ window.addEventListener("focus", () => {
 // EFECTO TIPEADO //
 const typed = new Typed('.typed', {
 	strings: [
+		'<i id="home__subtitle">Ing. de Software</i>',
+		'<i id="home__subtitle">Backend Developer</i>',
 		'<i id="home__subtitle">Frontend Developer</i>',
-		'<i id="home__subtitle">Ing. de Software</i>'
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
